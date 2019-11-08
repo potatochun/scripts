@@ -38,7 +38,6 @@ class retrieveTags:
             ids = self.response['Reservations'][i]['Instances'][0]['InstanceId']
             self.ec_list.append(ids)
 
-
     def create_tags(self):
         self.ec2_client = self.session_2.resource('ec2', region_name=self.region)
     
