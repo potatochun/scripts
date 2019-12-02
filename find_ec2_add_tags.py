@@ -1,5 +1,5 @@
-# Create tags based on selected AWS CLI profile
-# This script assumes AWS profiles has been setup in your .aws directory
+# This script create EC2 tags
+# Assuming AWS profiles has been setup in your .aws directory, input the desire AWS profile as argument
 # Then proceed to create tags for all ec2 instances per region
 # TODO: Provide input for tags 
 
